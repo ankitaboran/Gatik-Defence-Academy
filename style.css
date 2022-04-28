@@ -10,6 +10,12 @@ nav{
     width: 3rem;
     border-radius: 50%;
 }
-.logo{
+.logo h3{
     color: white;
+    font-size: 1.7rem;
+}
+.carousel-img{
+    height: 87vh;
+    width: 100vw;
+    display: block;
 }
