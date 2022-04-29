@@ -26,6 +26,26 @@ nav ul{
     .logo h3{
         font-size: 1.4rem;
     }
+    
+    iframe{
+        width: 300px;
+        height: 350;;
+    }
+   
+
+}
+@media screen and (max-width: 420px)
+{
+
+    iframe{
+        width: 200px;
+        height: 250px;
+        margin: 1rem 0rem !important;
+    }
+    footer{
+        padding: .4rem;
+    }
+   
 
 }
 
@@ -53,3 +73,10 @@ nav ul{
     padding-right: 4rem;
     margin-top: 3rem;
 }
+
+footer{
+    background: linear-gradient(#007fa685,#2664006f) !important;
+  }
+  footer * {
+    color: whitesmoke !important;
+  }
