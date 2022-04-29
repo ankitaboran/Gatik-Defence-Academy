@@ -3,8 +3,32 @@ nav{
     position: fixed;
     top:0;
     margin:-10px;
-    background: linear-gradient(to top,#27d8f7,rgb(0, 255, 187));
+    background: linear-gradient(to top,#27f7f7,rgba(200, 0, 255, 0.872));
 }
+nav ul{
+    font-size: .85rem;
+    font-weight: bold;
+}
+@media screen and (max-width: 1220px)
+{
+    nav ul{
+        font-size: .7rem;
+    }
+    .logo h3{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 990px)
+{
+    nav ul{
+        font-size: .9rem;
+    }
+    .logo h3{
+        font-size: 1.4rem;
+    }
+
+}
+
 .logo img{
     height: 3rem;
     width: 3rem;
@@ -12,10 +36,20 @@ nav{
 }
 .logo h3{
     color: white;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
 }
 .carousel-img{
     height: 87vh;
     width: 100vw;
     display: block;
+}
+.about-p{
+    color: blue;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: right;
+    padding-right: 4rem;
+    margin-top: 3rem;
 }
