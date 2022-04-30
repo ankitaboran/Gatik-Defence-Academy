@@ -73,9 +73,16 @@ nav ul{
     padding-right: 4rem;
     margin-top: 3rem;
 }
-
+.gallery img
+{
+height: 15rem;
+width: 20rem;
+}
+/* #Gallery {
+   background:url("./static/Image/principle.jpg") no-repeat  center center/cover;
+} */
 footer{
-    background: linear-gradient(#007fa685,#2664006f) !important;
+    background: linear-gradient(#9000a6,#005d64) !important;
   }
   footer * {
     color: whitesmoke !important;
