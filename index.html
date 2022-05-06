@@ -64,10 +64,18 @@
                 <span class="fas fa-book iconz"></span>
               </a>
               <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                <li><a class="dropdown-item" href="#">Course Offered
-                    <span class="fas fa-pen-fancy iconz"></span></a>
+                <li>
+                  <a class="dropdown-item" href="#" id="dropdownMenuButton1">Course Offered
+                    <span class="fas fa-pen-fancy iconz"></span>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
                 </li>
-                <li><a class="dropdown-item" href="#">Eligibility<span class="fas fa-question iconz"></span></a>
+                <li>
+                  <a class="dropdown-item" href="./static/Image/Gatik.Defence.pdf">Eligibility<span class="fas fa-question iconz"></span></a>
                 </li>
               </ul>
             </li>
@@ -123,28 +131,28 @@
             </div>
             <div class="col-12">
               Gender :&nbsp;
-              <label class="form-check-label" for="inlineRadio1">Male</label>
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-              <label class="form-check-label" for="inlineRadio1">FeMale</label>
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-              <label class="form-check-label" for="inlineRadio1">Other</label>
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+              <label class="form-check-label" for="Gender">Male</label>
+              <input class="form-check-input" type="radio" name="Gender" id="male" value="male">
+              <label class="form-check-label" for="Gender">FeMale</label>
+              <input class="form-check-input" type="radio" name="Gender" id="female" value="female">
+              <label class="form-check-label" for="Gender">Other</label>
+              <input class="form-check-input" type="radio" name="Gender" id="other" value="other">
             </div>
             <div class="col-12">
               Catagery :&nbsp;
-              <label class="form-check-label" for="inlineRadio1">General</label>
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-              <label class="form-check-label" for="inlineRadio1">OBC</label>
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-              <label class="form-check-label" for="inlineRadio1">SC/ST/Other</label>
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+              <label class="form-check-label" for="Catagery">General</label>
+              <input class="form-check-input" type="radio" name="Catagery" id="general" value="general">
+              <label class="form-check-label" for="Catagery">OBC</label>
+              <input class="form-check-input" type="radio" name="Catagery" id="obc" value="obc">
+              <label class="form-check-label" for="Catagery">SC/ST/Other</label>
+              <input class="form-check-input" type="radio" name="Catagery" id="sc/state" value="sc/state">
             </div>
             <div class="col-12">
               Medium :&nbsp;
-              <label class="form-check-label" for="inlineRadio1">English</label>
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-              <label class="form-check-label" for="inlineRadio1">Hindi</label>
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+              <label class="form-check-label" for="Medium">English</label>
+              <input class="form-check-input" type="radio" name="Medium" id="english" value="english">
+              <label class="form-check-label" for="Medium">Hindi</label>
+              <input class="form-check-input" type="radio" name="Medium" id="hindi" value="hindi">
             </div>
             <div class="col-12">
               <label for="Educational" class="form-label">Educational Qualification</label>
@@ -187,7 +195,7 @@
   <!-- ...............................Carousel.................. -->
   
 
-  <div id="mycarousel" class="carousel slide carousel-fade mt-2 opacity-50" data-bs-ride="carousel">
+  <div id="mycarousel" class="carousel slide carousel-fade " data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="2000">
         <img src="./static/Image/IMG-20220503-WA0010.jpg" class="carousel-img" alt="...">
@@ -227,16 +235,16 @@
 
       <div class="background-img3 has-text-centered">
         <br><br><br><br>
-        <p class="is-size-5 my-5">
-          सम्मानीय अभिभावक एवं प्रिय विद्यार्थियों,
+        <p class="is-size-5 my-5" style="line-height: 2rem;">
+          सम्मानीय अभिभावक एवं प्रिय विद्यार्थियों,<br>
 
           राजस्थान का शेखावाटी अंचल शिवा, शौर्य और शहादत के लिए भारतवर्ष में अपनी विशिष्ट पहचान रखता है। यहां की मिट्टी
           देशप्रेम व बलिदान की महक से सदैव सरोवार रही है। पिछले एक दशक से शिक्षण कार्यों से जुड़ाव होने के कारण मैंने
           पाया है कि यहां के युवाओं में सेना के प्रति उत्साह और जुनून वो अपने चरम पर है मगर मार्गदर्शन के अभाव में वो
-          अपने सपनों को पंख नहीं दे पाते।
+          अपने सपनों को पंख नहीं दे पाते।<br>
 
           इसी अनुभव को आधार मानते हुए तथा शेखावाटी की शॉर्य परंपरा को निरंतर बनाए रखने के लिए हमने गतिक डिफेंस एकेडमी
-          नाम से एक नए बीज का रोपण किया है जिसके अंकुरण के लिए आप सभी अभिभावकों और छात्रों का सहयोग अपेक्षित है।
+          नाम से एक नए बीज का रोपण किया है जिसके अंकुरण के लिए आप सभी अभिभावकों और छात्रों का सहयोग अपेक्षित है।<br>
 
           आपकी अपनी गतिक डिफेंस एकेडमी आपके सहयोग व मार्गदर्शन से हर दिन नए आयाम फूले को प्रयासरत रहेगी। आपके विश्वास पर
           खरा उतरना ही हमारा प्रथम और अंतिम ध्येय है।
@@ -251,6 +259,7 @@
   </section><br><br>
 
   <!--////////////////////// gallery ///////////////////// -->
+<div class="background">
 
   <section id="Gallery">
     <div class="container">
@@ -300,7 +309,7 @@
 
   <!--.................... footer .............. -->
   <footer id="contact-us">
-    <section class="container-fluid">
+    <section class="container-fluid py-2">
       <div class="row py-2 px-5">
         <div class="col-lg-6 col-md-6 col-12 col-xxl-6">
           <iframe
@@ -308,11 +317,11 @@
             width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <div class="col-lg-6 col-md-6 col-12 col-xxl-6 text-center mt-3">
-          <h1 id="contact-us" class="is-size-5">
+        <div class="col-lg-6 col-md-6 col-12 col-xxl-6 text-center mt-4">
+          <h1 id="contact-us" class="is-size-7" style="font-size: 2rem;">
             Contact Us
           </h1>
-          <div class="rows">
+          <div class="rows mt-4">
             <div class="column">
               <span class="fas fa-mobile-alt iconz"></span>
               <br>
@@ -322,7 +331,6 @@
             <div class="column"><i class="fas fa-phone-alt"></i>
               <br>
               <a href="tel:+01572299326" target="_blank">
-
                 Landline : 01572-299326
               </a>
             </div>
@@ -330,7 +338,6 @@
               <br>
               <a href="mailto:GDAsikar2410@gmail.com">gdasikar2410@gmail.com</a>
             </div>
-
             <div class="column">
               <a href="https://www.instagram.com/GDA_sikar/" target="_blank"><i class="fab fa-instagram"></i><br>
                 GDA_sikar</a>
@@ -346,10 +353,11 @@
             </div>
           </div>
     </section>
-    <p class="is-size-7 text-center">
-      copyright 2021 Gatik Cluster, Shivsinghpura.
+    <p class="is-size-7 text-center m-0 py-2">
+      Copyright 	&#169; 2021 Gatik Cluster, Shivsinghpura.
     </p>
   </footer>
+</div>
 
 
 
