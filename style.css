@@ -2,7 +2,7 @@
 nav{
     position: fixed;
     top:0;
-    margin:-10px;
+    
     background: linear-gradient(to top,#27f7f7,rgba(200, 0, 255, 0.872));
 }
 nav ul{
@@ -59,7 +59,7 @@ nav ul{
     font-size: 1.4rem;
 }
 .carousel-img{
-    height: 87vh;
+    height: 89vh;
     width: 100vw;
     display: block;
 }
@@ -78,12 +78,24 @@ nav ul{
 height: 15rem;
 width: 20rem;
 }
+.gallery img:hover
+{
+    transform: scale(1.2);
+}
+/* .gallery{
+    background: url(https://wallpaperaccess.com/full/1980883.jpg) no-repeat  center center/cover;
+} */
+
 /* #Gallery {
    background:url("./static/Image/principle.jpg") no-repeat  center center/cover;
 } */
-footer{
-    background: linear-gradient(#9000a6,#005d64) !important;
-  }
+ footer{
+    
+    /* background: linear-gradient(black,black); */
+    background: url(https://wallpaperaccess.com/full/1980883.jpg) no-repeat  center center/cover;
+  } 
   footer * {
-    color: whitesmoke !important;
+    color: white !important;
+    font-weight: bold;
+    font-size: 1.1rem;
   }
