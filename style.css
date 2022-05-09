@@ -2,7 +2,6 @@
 nav{
     position: fixed;
     top:0;
-    
     background: linear-gradient(to top,#8c27f7,rgb(187, 0, 255));
 }
 nav ul{
@@ -25,11 +24,10 @@ nav ul{
     }
     .logo h3{
         font-size: 1.4rem;
-    }
-    
+    } 
     iframe{
-        width: 300px;
-        height: 350;;
+        width: 350px;
+        height: 420px;
     }
     .logo h3{
         font-size: 1.15rem !important;
@@ -41,8 +39,8 @@ nav ul{
 {
 
     iframe{
-        width: 200px;
-        height: 250px;
+        width: 250px;
+        height: 280px;
         margin: 1rem 0rem !important;
     }
     footer{
@@ -51,6 +49,9 @@ nav ul{
     .logo h3{
         font-size: .9rem !important;
     }
+    .carousel-img{
+        height: 60vh !important;
+    }
 }
 @media screen and (max-width: 350px)
 {
@@ -58,8 +59,8 @@ nav ul{
         font-size: .9rem !important;
       }
       .carousel-img{
-        height: 60vh !important;
-    }
+        height: 50vh !important;
+    } 
     .logo h3{
         font-size: 1rem !important;
     }
@@ -67,6 +68,11 @@ nav ul{
         height: 2rem !important;
         width: 2rem !important;
         border-radius: 50%;
+        margin: 0 !important;
+    }
+    #from-desk img{
+        height: 15rem !important;
+        width: 16rem !important;
     }
 }
 
