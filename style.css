@@ -29,7 +29,7 @@ nav ul{
     
     iframe{
         width: 300px;
-        height: 350;;
+        height: 350px;
     }
     .logo h3{
         font-size: 1.15rem !important;
@@ -51,6 +51,11 @@ nav ul{
     .logo h3{
         font-size: .9rem !important;
     }
+    #Gallery{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
 }
 @media screen and (max-width: 350px)
 {
@@ -68,6 +73,11 @@ nav ul{
         width: 2rem !important;
         border-radius: 50%;
     }
+    .carousel-img{
+        height: 60vh !important;
+
+    }
+    
 }
 
 .logo img{
@@ -110,6 +120,7 @@ width: 20rem;
 
  footer{
     background: url(./static/Image/images.jpg) no-repeat  center center/cover;
+    /* filter: invert(75%); */
   } 
   footer * {
     color: white !important;
