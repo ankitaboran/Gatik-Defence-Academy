@@ -31,6 +31,9 @@ nav ul{
         width: 300px;
         height: 350;;
     }
+    .logo h3{
+        font-size: 1.15rem !important;
+    }
    
 
 }
@@ -45,8 +48,26 @@ nav ul{
     footer{
         padding: .4rem;
     }
-   
-
+    .logo h3{
+        font-size: .9rem !important;
+    }
+}
+@media screen and (max-width: 350px)
+{
+    footer * {
+        font-size: .9rem !important;
+      }
+      .carousel-img{
+        height: 60vh !important;
+    }
+    .logo h3{
+        font-size: 1rem !important;
+    }
+    .logo img{
+        height: 2rem !important;
+        width: 2rem !important;
+        border-radius: 50%;
+    }
 }
 
 .logo img{
@@ -86,16 +107,8 @@ width: 20rem;
 {
     transform: scale(1.2);
 }
-/* .gallery{
-    background: url(https://wallpaperaccess.com/full/1980883.jpg) no-repeat  center center/cover;
-} */
 
-/* #Gallery {
-   background:url("./static/Image/principle.jpg") no-repeat  center center/cover;
-} */
  footer{
-    
-    /* background: linear-gradient(black,black); */
     background: url(./static/Image/images.jpg) no-repeat  center center/cover;
   } 
   footer * {
