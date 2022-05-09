@@ -73,6 +73,10 @@ nav ul{
     padding-right: 4rem;
     margin-top: 3rem;
 }
+#from-desk p {
+background-color:rgba(255, 255, 0, 0.352) ;
+padding: 2rem ;
+}
 .gallery img
 {
 height: 15rem;
@@ -92,7 +96,7 @@ width: 20rem;
  footer{
     
     /* background: linear-gradient(black,black); */
-    background: url(https://wallpaperaccess.com/full/1980883.jpg) no-repeat  center center/cover;
+    background: url(./static/Image/images.jpg) no-repeat  center center/cover;
   } 
   footer * {
     color: white !important;
