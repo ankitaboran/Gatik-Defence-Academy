@@ -74,6 +74,11 @@ nav ul{
         height: 15rem !important;
         width: 16rem !important;
     }
+    .carousel-img{
+        height: 60vh !important;
+
+    }
+    
 }
 
 .logo img{
@@ -116,6 +121,7 @@ width: 20rem;
 
  footer{
     background: url(./static/Image/images.jpg) no-repeat  center center/cover;
+    /* filter: invert(75%); */
   } 
   footer * {
     color: white !important;
