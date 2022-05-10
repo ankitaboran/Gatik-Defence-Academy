@@ -16,7 +16,7 @@ nav ul{
 }
 .logo h3{
     color: white;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 .carousel-img{
     height: 89vh;
@@ -65,30 +65,21 @@ width: 20rem;
     nav ul{
         font-size: .7rem;
     }
-    .logo h3{
-        font-size: 1rem;
-    }
 }
 @media screen and (max-width: 990px)
 {
     nav ul{
         font-size: .9rem;
-    }
-    .logo h3{
-        font-size: 1.4rem;
     } 
     iframe{
         width: 350px;
         height: 420px;
     }
-    .logo h3{
-        font-size: 1.15rem !important;
-    }
 }
 @media screen and (max-width: 420px)
 {
     iframe{
-        width: 250px;
+        width: 270px;
         height: 280px;
         margin: 1rem !important;
     }
@@ -99,7 +90,13 @@ width: 20rem;
         font-size: 1.5rem !important;
     }
     .logo h3{
-        font-size: .9rem !important;
+        font-size: 1.1rem !important;
+    }
+    .logo img{
+        height: 2.2rem !important;
+        width: 2.2rem !important;
+        border-radius: 50%;
+        margin: 0 !important;
     }
     .carousel-img{
         height: 50vh !important;
@@ -115,15 +112,6 @@ width: 20rem;
         height: 45vh !important;
     } 
 
-    .logo h3{
-        font-size: 1rem !important;
-    }
-    .logo img{
-        height: 2rem !important;
-        width: 2rem !important;
-        border-radius: 50%;
-        margin: 0 !important;
-    }
     #from-desk img{
         height: 15rem !important;
         width: 16rem !important;
