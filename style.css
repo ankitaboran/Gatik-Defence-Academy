@@ -52,7 +52,7 @@ cursor:pointer;
 height: 15rem;
 width: 20rem;
 }
-.gallery img:hover
+.gallery,.selections img:hover
 {
     transform: scale(1.1);
 }
@@ -60,11 +60,10 @@ width: 20rem;
 .selections img{
 height: 20rem;
 width: 20rem;
+margin: 1rem .5rem;
 }
 
  footer{
-    /* background: url(./static/Image/images.jpg) no-repeat  center center/cover; */
-
     background: url(./static/Image/Contact-bg.jpg) no-repeat  center center/cover;
   } 
 
