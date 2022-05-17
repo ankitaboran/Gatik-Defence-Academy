@@ -40,7 +40,7 @@ padding: 2rem ;
 cursor:pointer;
 }
 #Gallery{
-    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdj1RlB1T3ZF837U-NQeODd2aVklZLwN8NQA&usqp=CAU) no-repeat  center center/cover;
+    background: url(./static/Image/gallery-bg.jpg) no-repeat  center center/cover;
 }
 .gallery img
 {
@@ -55,7 +55,7 @@ width: 20rem;
  footer{
     /* background: url(./static/Image/images.jpg) no-repeat  center center/cover; */
 
-    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiM4igFs1cLwUCx8VuLbXw_peNBLMWeetHlg&usqp=CAU) no-repeat  center center/cover;
+    background: url(./static/Image/Contact-bg.jpg) no-repeat  center center/cover;
   } 
 
   footer * {
