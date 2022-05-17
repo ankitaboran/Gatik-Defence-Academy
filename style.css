@@ -39,9 +39,14 @@ background-color:rgba(255, 255, 0, 0.352) ;
 padding: 2rem ;
 cursor:pointer;
 }
+
 #Gallery{
     background: url(./static/Image/gallery-bg.jpg) no-repeat  center center/cover;
 }
+#Selections{
+    background: url(./static/Image/Selection-bg.jpg) no-repeat  center top/cover;
+}
+
 .gallery img
 {
 height: 15rem;
@@ -50,6 +55,11 @@ width: 20rem;
 .gallery img:hover
 {
     transform: scale(1.1);
+}
+
+.selections img{
+height: 20rem;
+width: 20rem;
 }
 
  footer{
