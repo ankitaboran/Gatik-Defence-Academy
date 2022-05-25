@@ -2,7 +2,7 @@
 nav{
     position: fixed;
     top:0;
-    background: linear-gradient(to top,#27e9f7af,rgba(0, 255, 42, 0.916));
+    background: linear-gradient(to top,#27f7f0,rgba(0, 255, 42, 0.774));
 }
 nav ul{
     font-size: .85rem;
