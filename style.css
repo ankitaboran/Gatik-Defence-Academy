@@ -52,7 +52,11 @@ cursor:pointer;
 height: 15rem;
 width: 20rem;
 }
-.gallery,.selections img:hover
+.selections img:hover
+{
+    transform: scale(1.1);
+}
+.gallery img:hover
 {
     transform: scale(1.1);
 }
